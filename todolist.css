@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('/Users/maxmason/Coding/Projects/To Do List/images/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.text-wrapper {
+    width: 80%;
+    position: fixed;
+}
+
+.text-wrapper h1 {
+    text-align: right;
+    color: black;
+    font-size: 8vw;
+    margin-top: 5%;
+    text-decoration: wavy;
+}
+
+form {
+    width: 100vw;
+    max-width: 400px;
+    min-width: 100px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.tasks {
+    width: 80%;
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+label {
+    display: block;
+    border: none;
+    margin: 2rem 0;
+    font-size: 50px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    width: 250px;
+}
+
+textarea[name="othernotes"] {
+    margin-top: 20px;
+}
